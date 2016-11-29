@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <sidebar v-bind:items="sidebar.items"></sidebar>
+    <search-box></search-box>
     <web-content></web-content>
   </div>
 </template>
@@ -8,6 +9,7 @@
 <script>
 import Sidebar from './components/Sidebar'
 import WebContent from './components/WebContent'
+import SearchBox from './components/SearchBox'
 
 export default {
   name: 'app',
@@ -20,7 +22,8 @@ export default {
   },
   components: {
     WebContent,
-    Sidebar
+    Sidebar,
+    SearchBox
   }
 }
 </script>

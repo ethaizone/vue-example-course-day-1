@@ -1,6 +1,7 @@
 <template>
   <div>
-    Content is {{ content }}
+    <span v-if="!content">** This is homepage **</span>
+    <span v-else>Content is <b>{{ content }}</b></span>
   </div>
 </template>
 
@@ -8,7 +9,7 @@
 import bus from './../bus'
 
 var contentData = {
-  content: 'homepage'
+  content: null
 }
 bus.$on('goto', function (item) {
   contentData.content = item

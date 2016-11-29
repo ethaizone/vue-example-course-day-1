@@ -1,6 +1,8 @@
-# vue-example
+# vue-example-course-day-1
 
-> A Vue.js project
+> Course at E-Commerce Solution Co,ltd. Day 1.
+
+Coverage about v-on, v-bind, v-on, v-model, v-if, v-else, v-show and vue components.
 
 ## Build Setup
 
