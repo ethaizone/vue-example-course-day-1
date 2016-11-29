@@ -6,6 +6,8 @@ Coverage about v-on, v-bind, v-model, v-if, v-else, v-show and vue components.
 
 Extra: Communicate from component to component. (Vue.$emit and Vue.$on)
 
+<a href="https://ethaizone.github.io/vue-example-course-day-1/">Demo</a>
+
 ## Build Setup
 
 ``` bash
