@@ -4,6 +4,8 @@
 
 Coverage about v-on, v-bind, v-model, v-if, v-else, v-show and vue components.
 
+Extra: Communicate from component to component. (Vue.$emit and Vue.$on)
+
 ## Build Setup
 
 ``` bash
